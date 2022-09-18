@@ -27,6 +27,14 @@ public class Main {
             System.out.printf("\nA kör sugara %s cm-re nőtt/csökkent",k3.NagyitvKicsinyit(valasz));
         }
 
+        Kor korok[]=new Kor[10];
+        for (int i = 0; i < korok.length; i++) {
+            korok[i]=new Kor();
+        }
+
+        for (Kor k:korok) {
+            System.out.println(k);
+        }
 
     }
 }

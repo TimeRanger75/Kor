@@ -22,8 +22,8 @@ public class Kor {
     }
 
     public Kor(){
-        this.x= rnd.nextInt(60+10)-60;
-        this.y= rnd.nextInt(60+10)-60;
+        this.x= rnd.nextInt(60+10)-30;
+        this.y= rnd.nextInt(60+10)-30;
         this.sugar=rnd.nextInt(51);
     }
 
