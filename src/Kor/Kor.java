@@ -48,6 +48,14 @@ public class Kor {
         this.sugar=sugar;
     }
 
+    public double KorKerulete(){
+        return (2*this.sugar)*Math.PI;
+    }
+
+    public  double KorTerulete(){
+        return Math.sqrt(this.sugar)*Math.PI;
+    }
+
     @Override
     public String toString(){return String.format("(%d,%d) koordinátájú, %d cm sugarú kör ",this.x,this.y, this.sugar);}
 }
