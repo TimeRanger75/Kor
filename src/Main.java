@@ -15,8 +15,17 @@ public class Main {
         System.out.println(k2);
         System.out.println(k3);
 
-        System.out.printf("A kör kerülete %.3f cm2",k3.KorKerulete());
-        System.out.printf("A kör Területe %.3f cm",k3.KorTerulete());
+        System.out.printf("\nA kör kerülete %.3f cm2",k3.KorKerulete());
+        System.out.printf("\nA kör Területe %.3f cm",k3.KorTerulete());
+
+        System.out.println("\nAdjon meg egy számot a kör kicsinyítéséhez vagy nagyításához: ");
+        int valasz=sc.nextInt();
+        if (k3.NagyitvKicsinyit(valasz)<0){
+            System.out.println("A sugár értéke érvénytelen");
+        }
+        else{
+            System.out.printf("\nA kör sugara %s cm-re nőtt/csökkent",k3.NagyitvKicsinyit(valasz));
+        }
 
 
     }

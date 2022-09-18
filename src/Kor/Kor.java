@@ -56,6 +56,10 @@ public class Kor {
         return Math.sqrt(this.sugar)*Math.PI;
     }
 
+    public int NagyitvKicsinyit(int valasz){
+        return  this.sugar+valasz;
+    }
+
     @Override
     public String toString(){return String.format("(%d,%d) koordinátájú, %d cm sugarú kör ",this.x,this.y, this.sugar);}
 }
