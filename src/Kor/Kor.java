@@ -53,7 +53,7 @@ public class Kor {
     }
 
     public  double KorTerulete(){
-        return Math.sqrt(this.sugar)*Math.PI;
+        return Math.pow(this.sugar,2)*Math.PI;
     }
 
     public int NagyitvKicsinyit(int valasz){

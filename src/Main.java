@@ -36,5 +36,14 @@ public class Main {
             System.out.println(k);
         }
 
+        int legnagyobbTerulet=0;
+        for (int i = 1; i < korok.length; i++) {
+            if (korok[legnagyobbTerulet].KorTerulete()<korok[i].KorTerulete()){
+                legnagyobbTerulet=i;
+            }
+        }
+
+        System.out.printf("A legnagyobb területtelrendelkező kör a %s. Területe %.3f cm",korok[legnagyobbTerulet],korok[legnagyobbTerulet].KorTerulete());
+
     }
 }
