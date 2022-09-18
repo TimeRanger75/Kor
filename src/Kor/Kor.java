@@ -18,6 +18,7 @@ public class Kor {
     public Kor(int sugar){
         this.x=0;
         this.y=0;
+        this.sugar=sugar;
     }
 
     public Kor(){
